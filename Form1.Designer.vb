@@ -446,7 +446,7 @@ Partial Class Form1
         '
         'disp
         '
-        Me.disp.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.disp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.disp.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.5!)
         Me.disp.Location = New System.Drawing.Point(254, 584)
         Me.disp.Name = "disp"
@@ -598,7 +598,7 @@ Partial Class Form1
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
         Me.PictureBox2.Location = New System.Drawing.Point(99, 550)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(148, 50)
+        Me.PictureBox2.Size = New System.Drawing.Size(164, 64)
         Me.PictureBox2.TabIndex = 38
         Me.PictureBox2.TabStop = False
         '
@@ -665,6 +665,6 @@ Partial Class Form1
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents BunifuThinButton21 As Bunifu.Framework.UI.BunifuThinButton2
     Friend WithEvents BunifuGradientPanel1 As Bunifu.Framework.UI.BunifuGradientPanel
-    Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents ClearButton As Bunifu.Framework.UI.BunifuThinButton2
+    Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
 End Class
